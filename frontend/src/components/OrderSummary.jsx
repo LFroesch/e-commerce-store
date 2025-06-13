@@ -94,7 +94,16 @@ const OrderSummary = () => {
 				>
 					Proceed to Checkout
 				</motion.button>
-
+				<div className='flex items-center justify-center'>
+					<Link
+						to='https://docs.stripe.com/testing?testing-method=card-numbers#visa'
+						target="_blank"
+						rel="noopener noreferrer"
+						className='inline-flex items-center gap-2 text-sm font-medium text-emerald-400 underline hover:text-emerald-300 hover:no-underline'
+						>
+						Click Here for info on Test Cards
+					</Link>
+				</div>
 				<div className='flex items-center justify-center gap-2'>
 					<span className='text-sm font-normal text-gray-400'>or</span>
 					<Link
